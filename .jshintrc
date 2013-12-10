@@ -65,7 +65,7 @@
     "couch": false, // CouchDB
     "devel": true, // Development/debugging (alert, confirm, etc)
     "dojo": false, // Dojo Toolkit
-    "jquery": false, // jQuery
+    "jquery": true, // jQuery
     "mootools": false, // MooTools
     "node": true, // Node.js
     "nonstandard": false, // Widely adopted globals (escape, unescape, etc)
@@ -82,5 +82,5 @@
     "white": false, // true: Check against strict whitespace and indentation rules
 
     // Custom Globals
-    "globals": {"chrome":true} // additional predefined global variables
+    "globals": {"chrome":true,"localStorage":true} // additional predefined global variables
 }
